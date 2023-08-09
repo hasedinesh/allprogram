@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" time-out="300">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngAnnotations.TestngDescriptionAnnotationAttributeTest"/>
+      <class name="testngAnnotations.TestngPriorityAnnotationAttribute"/>
+      <class name="testngAnnotations.EnabledAnnotationAttributeTest"/>
+      <class name="testngAnnotations.TimeoutAnnotationattribute"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

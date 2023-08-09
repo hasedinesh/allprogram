@@ -1,0 +1,14 @@
+package predefinedClass;
+
+public class WrapperParsemethod {
+
+	public static void main(String[] args) {
+		int i=Integer.parseInt("10");
+		System.out.println(i);
+		
+		float f=Float.parseFloat("10.5");
+		System.out.println(f);
+		
+		boolean b=Boolean.parseBoolean("true");
+	}
+}

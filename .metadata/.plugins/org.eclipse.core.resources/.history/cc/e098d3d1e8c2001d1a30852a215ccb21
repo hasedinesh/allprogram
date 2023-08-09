@@ -1,0 +1,11 @@
+package frameHandling;
+import utility.SeleniumutilsNonStaticMethods;
+public class PaytmFrame {
+
+	public static void main(String[] args) {
+		
+	SeleniumutilsNonStaticMethods obj=new SeleniumutilsNonStaticMethods();
+	obj.setup("https://www.paytm.com");
+	}
+
+}

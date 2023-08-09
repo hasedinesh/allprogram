@@ -1,0 +1,13 @@
+package frameHandling;
+import org.openqa.selenium.By;
+
+import utility.SeleniumutilsNonStaticMethods;
+public class PaytmFrame {
+
+	public static void main(String[] args) {
+	SeleniumutilsNonStaticMethods obj=new SeleniumutilsNonStaticMethods();
+	obj.setup("https://www.paytm.com");
+	SeleniumutilsNonStaticMethods.driver.findElement(By.xpath("//div[@class='_1YPz_']//span"));
+	}
+
+}

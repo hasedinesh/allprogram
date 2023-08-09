@@ -1,0 +1,10 @@
+package predefinedClass;
+
+public class WrapperClassxxxValueMethod {
+
+	public static void main(String[] args) {
+		
+		Integer I= Integer.valueOf(100);
+		System.out.println(I);
+
+}

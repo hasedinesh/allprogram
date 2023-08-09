@@ -1,0 +1,20 @@
+package collection;
+import java.util.ArrayList;
+public class ArrayListMethods {
+	public static void main(String[] args) {
+		ArrayList<Object> l=new ArrayList<>();
+		
+		l.add("A");
+		l.add(10);
+		l.add("A");
+		l.add(null);
+		
+		System.out.println(l);//[A, 10, A, null]
+		l.set(2, "B");
+		System.out.println(l);//[A, 10, B, null]
+		l.remove(2);
+		System.out.println(l);//[A, 10, null]
+		l.add(20);
+		System.out.println(l);// [A, 10, null, 20]
+	}
+}

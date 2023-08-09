@@ -1,0 +1,34 @@
+package predefinedClass;
+public class WrapperClass {
+	public static void main(String[] args) {
+     Integer I=new Integer(100); //100
+     System.out.println(I);
+     
+     Integer I1=new Integer("100"); //100
+     System.out.println(I);
+     
+     //Integer I2=new Integer("ten");//here we will get RE:NumberFormatException
+     //System.out.println(I);
+     
+     Character C= new Character('a');
+     System.out.println(C);//a
+     //Character C= new Character("a"); // CE:argument is undefined
+     
+     Boolean B= new Boolean(true);  //true
+     System.out.println(B);
+     //Boolean B1= new Boolean(True);  //Invalid Compile time error
+     //System.out.println(B1);
+     Boolean B2= new Boolean(false);  //false
+     System.out.println(B2);
+     Boolean B3= new Boolean("yes"); //false
+     System.out.println(B3);
+     Boolean B4= new Boolean("No"); //false
+     System.out.println(B4);
+     Boolean B5= new Boolean("true"); //true
+     System.out.println(B5);
+	 Boolean B6= new Boolean("True"); //true
+	 System.out.println(B6);
+	 Boolean B7= new Boolean("false"); //false
+	 System.out.println(B7);
+	}
+}

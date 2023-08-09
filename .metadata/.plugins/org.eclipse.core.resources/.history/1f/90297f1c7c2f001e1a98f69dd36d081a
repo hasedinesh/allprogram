@@ -1,0 +1,29 @@
+package testNGPractice;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
+import org.testng.asserts.SoftAssert;
+
+public class AsserTestng {
+
+	
+
+	//Soft Assertion
+	
+	@Test
+	public void softAssert() {
+		int a=10; int b=15;
+		Assertion assertion=new Assertion();
+		SoftAssert softassert=new SoftAssert();
+		softassert.assertEquals(a, b);
+		assertion.assertEquals(a, b);
+		Assert.assertEquals(a, b);
+		assertion.assertTrue(a>b);
+		softassert.assertAll();
+		
+	}
+		
+
+
+}

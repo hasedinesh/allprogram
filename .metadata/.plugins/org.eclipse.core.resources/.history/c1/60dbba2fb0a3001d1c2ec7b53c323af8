@@ -1,0 +1,9 @@
+package predefinedClass;
+
+public class WrapperParsemethod {
+
+	public static void main(String[] args) {
+		int i=Integer.parseInt("Dinesh");
+		System.out.println(i);
+	}
+}

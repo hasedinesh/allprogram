@@ -1,0 +1,41 @@
+package extentReport;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+//import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+@Listeners (extentReport.ListnersTest.class)
+
+public class Listners1 {
+	ExtentReports extent;
+	@BeforeTest
+	public void configuration() {
+	String path = System.getProperty("user.dir")+"\\reports\\index.html";
+	ExtentSparkReporter reporter=new ExtentSparkReporter(path);
+	reporter.config().setReportName("Omayo Test Results");
+	reporter.config().setDocumentTitle("A Test Results");
+	extent = new ExtentReports();
+	extent.attachReporter(reporter);
+	extent.setSystemInfo("Operating System","Windows 10");
+	extent.setSystemInfo("Tested By","Arun Motoori");
+
+	}
+	
+	
+	
+	
+	
+  @Test
+  public void loginTest() {
+	  
+	  System.out.println("Login to page");
+	  Assert.assertEquals("Dinesh", "Dinesh");
+	  
+  }
+}

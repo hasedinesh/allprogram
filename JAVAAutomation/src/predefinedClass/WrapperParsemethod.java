@@ -1,0 +1,19 @@
+package predefinedClass;
+
+public class WrapperParsemethod {
+
+	public static void main(String[] args) {
+		int i=Integer.parseInt("10");
+		System.out.println(i);
+		
+		float f=Float.parseFloat("10.5");
+		System.out.println(f);
+		
+		boolean b=Boolean.parseBoolean("True");
+		System.out.println(b);
+		boolean b1=Boolean.parseBoolean("sfasf");//false because other than "true" and "True" everything will be consider as false
+	    System.out.println(b1);
+	
+	
+	}
+}

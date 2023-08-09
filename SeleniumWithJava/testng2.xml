@@ -1,0 +1,9 @@
+<suite name="xyz">
+	<test name="testngTest">
+		<classes>
+			<class name="testNGPractice.Listners1" />
+			<class name="testNGPractice.AsserTestng" />
+			<class name="testNGPractice.DataProvider1" />
+		</classes>
+	</test>
+</suite>

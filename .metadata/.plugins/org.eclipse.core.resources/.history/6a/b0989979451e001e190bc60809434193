@@ -1,0 +1,65 @@
+package day1;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import files.payload;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+public class PostTestCAse {
+
+	public static void main(String[] args) {
+		
+	//validate if Add Place API is working
+		//given : all input details (base url,keys, query parameter, headers)
+		//when : type of http method, resource
+		//then: expected status code(Assertion)
+
+		
+		RestAssured.baseURI="https://rahulshettyacademy.com";
+		
+		String resPonse=given().queryParam("key","qaclick123").header("Content-Type", "application/json")
+		.body(payload.payloadForGetPlace())  //payload is taken from files package
+		
+		.when().post("/maps/api/place/add/json")
+		.then().assertThat().statusCode(200).body("scope",equalTo("APP"))
+		.header("Server","Apache/2.4.52 (Ubuntu)") //to verify headers
+		.extract().response().asString();//to extract response and parse into String
+		
+		System.out.println(resPonse);
+		
+		JsonPath js= new JsonPath(resPonse);
+		String placeID=js.getString("place_id");
+		System.out.println(placeID);
+		
+		
+		//update place
+		String newAddress="B405";
+		given().param("key","qaclick12").header("Content-Type","application/json")
+				.body("{\r\n"
+						+ "\"place_id\":\""+placeID+"\",\r\n"
+						+ "\"address\":\""+newAddress+"\",\r\n"
+						+ "\"key\":\"qaclick123\"\r\n"
+						+ "}")
+		.when().put("/maps/api/place/update/json")
+		.then().assertThat().body("msg",equalTo("Address successfully updated"));
+		
+		
+		//get place
+		
+		given().queryParam("key","qaclick123").queryParam("place_id", placeID)
+		.when().get("/maps/api/place/get/json")
+		.then().assertThat().statusCode(200).body("address",equalTo(newAddress));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

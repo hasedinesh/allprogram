@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/bcpkix-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/bcprov-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/dec-0.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/docker-java-3.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/docker-java-api-3.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/docker-java-core-3.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/docker-java-transport-3.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/docker-java-transport-httpclient5-3.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/httpclient5-5.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/httpcore5-5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/httpcore5-h2-5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/jna-5.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-api-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-api-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-chrome-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-chrome-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-chromium-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-chromium-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v85-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v85-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v108-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v108-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v109-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v109-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v110-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-devtools-v110-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-edge-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-edge-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-firefox-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-firefox-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-http-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-http-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-ie-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-ie-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-java-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-java-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-json-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-json-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-manager-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-manager-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-remote-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-remote-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-safari-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-safari-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-server-4.8.1 (1).jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-support-4.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/selenium-support-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/slf4j-api-2.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/SeleniumNew/jars/webdrivermanager-5.3.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

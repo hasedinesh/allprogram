@@ -1,0 +1,24 @@
+package overRiding;
+
+class Person{
+	public void age(){
+		System.out.println("Age above 18 year old");
+	}
+}
+
+class Minister extends Person{
+	public void age() {
+		System.out.println("Age is between 18 to 55");
+	}
+	
+}
+
+
+public class OverridingChildObjectForParent {
+
+	public static void main(String[] args) {
+     Minister obj =new Minister();
+     obj.age();
+	}
+
+}

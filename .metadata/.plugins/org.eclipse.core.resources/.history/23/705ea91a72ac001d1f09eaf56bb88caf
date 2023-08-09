@@ -1,0 +1,26 @@
+package map;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashMapMethods {
+
+	public static void main(String[] args) {
+		
+		HashMap hm=new HashMap();
+		hm.put("Dinesh",101);
+		hm.put("Ganesh",105);
+		hm.put("Shlok",103);
+		hm.put("Advika",120);
+		hm.put("Dinesh", 140);//Will replace first entry of 101.
+		System.out.println(hm);// {Shlok=103, A=140, Ganesh=105, Dinesh=101, Advika=120}
+		Set s=hm.keySet();
+		System.out.println(s);
+		Collection c=hm.values();
+		System.out.println(c);
+		Set se=hm.entrySet();
+		
+	}
+
+}

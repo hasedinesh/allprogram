@@ -1,0 +1,28 @@
+package testNGPractice;
+
+import org.testng.annotations.Test;
+
+public class AttributesTestNG {
+	
+	
+	@Test 
+	public void logout() {
+		System.out.println("Logout sucessfully");
+		
+	}
+	
+	@Test ()
+	public void login() {
+		System.out.println("Logged in sucessfully");
+		
+	}
+	
+	@Test
+	public void moneyTrasfer() {
+		System.out.println("Money Trasferred sucessfully");
+		
+	}
+	
+	
+
+}

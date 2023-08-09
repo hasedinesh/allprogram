@@ -1,0 +1,26 @@
+package testNGPractice;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
+import org.testng.asserts.SoftAssert;
+
+public class AsserTestng {
+
+	
+
+	//Soft Assertion
+	
+	@Test
+	public void softAssert() {
+		int a=10; int b=15;
+		SoftAssert softassert=new SoftAssert();//For SoftAssertion, we need to create object for SoftAssertion class 
+											   //as methods are non-static
+		softassert.assertTrue(a>b);//false
+		System.out.println("Ji");
+		softassert.assertTrue(a<b);
+	}
+		
+
+
+}

@@ -1,0 +1,18 @@
+package predefinedClass;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+     Integer I=new Integer(100);
+     System.out.println(I);
+     
+     Integer I1=new Integer("100");
+     System.out.println(I);
+     
+     Integer I2=new Integer("ten");
+     System.out.println(I);
+	}
+
+}

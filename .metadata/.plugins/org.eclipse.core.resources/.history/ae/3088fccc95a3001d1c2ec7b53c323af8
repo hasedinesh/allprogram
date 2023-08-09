@@ -1,0 +1,24 @@
+package predefinedClass;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+     Integer I=new Integer(100); //100
+     System.out.println(I);
+     
+     Integer I1=new Integer("100"); //100
+     System.out.println(I);
+     
+     //Integer I2=new Integer("ten");//here we will get RE:NumberFormatException
+     //System.out.println(I);
+     
+     Character C= new Character('a');
+     System.out.println(C);
+     
+     
+     
+	}
+
+}

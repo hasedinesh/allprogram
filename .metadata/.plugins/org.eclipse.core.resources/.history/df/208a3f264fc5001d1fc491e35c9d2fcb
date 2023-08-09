@@ -1,0 +1,19 @@
+package calenderHandling;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import utility.SeleniumutilsNonStaticMethods;
+public class CalenderMakeMyTrip {
+
+	static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException {
+		SeleniumutilsNonStaticMethods obj1=new SeleniumutilsNonStaticMethods();
+		obj1.setup("https://www.makemytrip.com/");
+		driver=SeleniumutilsNonStaticMethods.driver;
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//a[@id=\"webklipper-publisher-widget-container-notification-close-div\"]")).click();
+		
+
+	}
+
+}

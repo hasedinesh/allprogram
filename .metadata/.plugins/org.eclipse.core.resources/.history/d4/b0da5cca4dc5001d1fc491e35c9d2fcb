@@ -1,0 +1,12 @@
+package calenderHandling;
+import utility.SeleniumutilsNonStaticMethods;
+public class CalenderMakeMyTrip {
+
+	public static void main(String[] args) {
+		SeleniumutilsNonStaticMethods obj1=new SeleniumutilsNonStaticMethods();
+		obj1.setup("https://www.makemytrip.com/");
+		
+
+	}
+
+}

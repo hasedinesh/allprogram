@@ -1,0 +1,17 @@
+package map;
+
+import java.util.HashMap;
+
+public class HashMapMethods {
+
+	public static void main(String[] args) {
+		
+		HashMap hm=new HashMap();
+		hm.put("Dinesh",101);
+		hm.put("Ganesh",105);
+		hm.put("Shlok",103);
+		hm.put("Advika",120);
+		System.out.println(hm);
+	}
+
+}
